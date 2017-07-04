@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBB761AB1F0B6E12005EB98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761AA1F0B6E12005EB98C /* AppDelegate.swift */; };
+		DBB761AD1F0B6E12005EB98C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761AC1F0B6E12005EB98C /* ViewController.swift */; };
+		DBB761B01F0B6E12005EB98C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB761AE1F0B6E12005EB98C /* Main.storyboard */; };
+		DBB761B21F0B6E12005EB98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB761B11F0B6E12005EB98C /* Assets.xcassets */; };
+		DBB761B51F0B6E12005EB98C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB761B31F0B6E12005EB98C /* LaunchScreen.storyboard */; };
+		DBB761C21F0B745F005EB98C /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761BD1F0B745F005EB98C /* BaseModel.swift */; };
+		DBB761C31F0B745F005EB98C /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761BE1F0B745F005EB98C /* BaseNavigationController.swift */; };
+		DBB761C41F0B745F005EB98C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761BF1F0B745F005EB98C /* BaseViewController.swift */; };
+		DBB761C51F0B745F005EB98C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761C01F0B745F005EB98C /* BaseViewModel.swift */; };
+		DBB761C61F0B745F005EB98C /* BaseWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761C11F0B745F005EB98C /* BaseWKWebViewController.swift */; };
+		DBB761CA1F0B747A005EB98C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761C81F0B747A005EB98C /* Const.swift */; };
+		DBB761CB1F0B747A005EB98C /* Observable+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761C91F0B747A005EB98C /* Observable+ObjectMapper.swift */; };
+		DBB761D01F0B7491005EB98C /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761CE1F0B7491005EB98C /* APIConfig.swift */; };
+		DBB761D11F0B7491005EB98C /* YummlyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761CF1F0B7491005EB98C /* YummlyAPI.swift */; };
+		DBB761D31F0B7603005EB98C /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761D21F0B7603005EB98C /* BaseTabBarController.swift */; };
+		DBB761DF1F0B7A1C005EB98C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761DE1F0B7A1C005EB98C /* HomeViewController.swift */; };
+		DBB761E11F0B7A31005EB98C /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB761E01F0B7A31005EB98C /* MeViewController.swift */; };
+		F05FCE7DA4176C0EE89D7015 /* Pods_NeuralStyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C25D7EB2FE92A2C92C3CEF3 /* Pods_NeuralStyle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B0EE438B6B08CD375B95697 /* Pods-NeuralStyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuralStyle.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeuralStyle/Pods-NeuralStyle.release.xcconfig"; sourceTree = "<group>"; };
+		2C25D7EB2FE92A2C92C3CEF3 /* Pods_NeuralStyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuralStyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB761A71F0B6E12005EB98C /* NeuralStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuralStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB761AA1F0B6E12005EB98C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBB761AC1F0B6E12005EB98C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBB761AF1F0B6E12005EB98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBB761B11F0B6E12005EB98C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB761B41F0B6E12005EB98C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBB761B61F0B6E12005EB98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB761BD1F0B745F005EB98C /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		DBB761BE1F0B745F005EB98C /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		DBB761BF1F0B745F005EB98C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DBB761C01F0B745F005EB98C /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		DBB761C11F0B745F005EB98C /* BaseWKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWKWebViewController.swift; sourceTree = "<group>"; };
+		DBB761C81F0B747A005EB98C /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		DBB761C91F0B747A005EB98C /* Observable+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ObjectMapper.swift"; sourceTree = "<group>"; };
+		DBB761CE1F0B7491005EB98C /* APIConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		DBB761CF1F0B7491005EB98C /* YummlyAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YummlyAPI.swift; sourceTree = "<group>"; };
+		DBB761D21F0B7603005EB98C /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		DBB761DE1F0B7A1C005EB98C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DBB761E01F0B7A31005EB98C /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		E61EB2410FFE039BE88A3E2F /* Pods-NeuralStyle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuralStyle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeuralStyle/Pods-NeuralStyle.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB761A41F0B6E12005EB98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05FCE7DA4176C0EE89D7015 /* Pods_NeuralStyle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9659DF9C72915DB8BD3CF9C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E61EB2410FFE039BE88A3E2F /* Pods-NeuralStyle.debug.xcconfig */,
+				2B0EE438B6B08CD375B95697 /* Pods-NeuralStyle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBB7619E1F0B6E12005EB98C = {
+			isa = PBXGroup;
+			children = (
+				DBB761A91F0B6E12005EB98C /* NeuralStyle */,
+				DBB761A81F0B6E12005EB98C /* Products */,
+				9659DF9C72915DB8BD3CF9C9 /* Pods */,
+				FE9528C661149570574535B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB761A81F0B6E12005EB98C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB761A71F0B6E12005EB98C /* NeuralStyle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB761A91F0B6E12005EB98C /* NeuralStyle */ = {
+			isa = PBXGroup;
+			children = (
+				DBB761AA1F0B6E12005EB98C /* AppDelegate.swift */,
+				DBB761AC1F0B6E12005EB98C /* ViewController.swift */,
+				DBB761AE1F0B6E12005EB98C /* Main.storyboard */,
+				DBB761C71F0B747A005EB98C /* Common */,
+				DBB761BC1F0B745F005EB98C /* Base */,
+				DBB761CC1F0B7491005EB98C /* Medule */,
+				DBB761CD1F0B7491005EB98C /* Request */,
+				DBB761B11F0B6E12005EB98C /* Assets.xcassets */,
+				DBB761B31F0B6E12005EB98C /* LaunchScreen.storyboard */,
+				DBB761B61F0B6E12005EB98C /* Info.plist */,
+			);
+			path = NeuralStyle;
+			sourceTree = "<group>";
+		};
+		DBB761BC1F0B745F005EB98C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DBB761BD1F0B745F005EB98C /* BaseModel.swift */,
+				DBB761BE1F0B745F005EB98C /* BaseNavigationController.swift */,
+				DBB761BF1F0B745F005EB98C /* BaseViewController.swift */,
+				DBB761C01F0B745F005EB98C /* BaseViewModel.swift */,
+				DBB761C11F0B745F005EB98C /* BaseWKWebViewController.swift */,
+				DBB761D21F0B7603005EB98C /* BaseTabBarController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DBB761C71F0B747A005EB98C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DBB761C81F0B747A005EB98C /* Const.swift */,
+				DBB761C91F0B747A005EB98C /* Observable+ObjectMapper.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DBB761CC1F0B7491005EB98C /* Medule */ = {
+			isa = PBXGroup;
+			children = (
+				DBB761D41F0B771A005EB98C /* Home */,
+				DBB761D91F0B771A005EB98C /* Me */,
+			);
+			path = Medule;
+			sourceTree = "<group>";
+		};
+		DBB761CD1F0B7491005EB98C /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DBB761CE1F0B7491005EB98C /* APIConfig.swift */,
+				DBB761CF1F0B7491005EB98C /* YummlyAPI.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		DBB761D41F0B771A005EB98C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DBB761D51F0B771A005EB98C /* Model */,
+				DBB761D61F0B771A005EB98C /* View */,
+				DBB761D71F0B771A005EB98C /* ViewController */,
+				DBB761D81F0B771A005EB98C /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DBB761D51F0B771A005EB98C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBB761D61F0B771A005EB98C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBB761D71F0B771A005EB98C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBB761DE1F0B7A1C005EB98C /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DBB761D81F0B771A005EB98C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DBB761D91F0B771A005EB98C /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				DBB761DA1F0B771A005EB98C /* Model */,
+				DBB761DB1F0B771A005EB98C /* View */,
+				DBB761DC1F0B771A005EB98C /* ViewController */,
+				DBB761DD1F0B771A005EB98C /* ViewModel */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		DBB761DA1F0B771A005EB98C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBB761DB1F0B771A005EB98C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBB761DC1F0B771A005EB98C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBB761E01F0B7A31005EB98C /* MeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DBB761DD1F0B771A005EB98C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE9528C661149570574535B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C25D7EB2FE92A2C92C3CEF3 /* Pods_NeuralStyle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB761A61F0B6E12005EB98C /* NeuralStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB761B91F0B6E12005EB98C /* Build configuration list for PBXNativeTarget "NeuralStyle" */;
+			buildPhases = (
+				1CDF2B1BF6D6C5068D7958B5 /* [CP] Check Pods Manifest.lock */,
+				DBB761A31F0B6E12005EB98C /* Sources */,
+				DBB761A41F0B6E12005EB98C /* Frameworks */,
+				DBB761A51F0B6E12005EB98C /* Resources */,
+				9D503D2C70908DD28479239D /* [CP] Embed Pods Frameworks */,
+				9DBA0D3DB98C8E9490D866CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuralStyle;
+			productName = NeuralStyle;
+			productReference = DBB761A71F0B6E12005EB98C /* NeuralStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB7619F1F0B6E12005EB98C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = gjj;
+				TargetAttributes = {
+					DBB761A61F0B6E12005EB98C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7ALBEQ9P8C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBB761A21F0B6E12005EB98C /* Build configuration list for PBXProject "NeuralStyle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB7619E1F0B6E12005EB98C;
+			productRefGroup = DBB761A81F0B6E12005EB98C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB761A61F0B6E12005EB98C /* NeuralStyle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB761A51F0B6E12005EB98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB761B51F0B6E12005EB98C /* LaunchScreen.storyboard in Resources */,
+				DBB761B21F0B6E12005EB98C /* Assets.xcassets in Resources */,
+				DBB761B01F0B6E12005EB98C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CDF2B1BF6D6C5068D7958B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D503D2C70908DD28479239D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeuralStyle/Pods-NeuralStyle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DBA0D3DB98C8E9490D866CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeuralStyle/Pods-NeuralStyle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB761A31F0B6E12005EB98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB761D11F0B7491005EB98C /* YummlyAPI.swift in Sources */,
+				DBB761C41F0B745F005EB98C /* BaseViewController.swift in Sources */,
+				DBB761C31F0B745F005EB98C /* BaseNavigationController.swift in Sources */,
+				DBB761C21F0B745F005EB98C /* BaseModel.swift in Sources */,
+				DBB761AD1F0B6E12005EB98C /* ViewController.swift in Sources */,
+				DBB761D01F0B7491005EB98C /* APIConfig.swift in Sources */,
+				DBB761AB1F0B6E12005EB98C /* AppDelegate.swift in Sources */,
+				DBB761CA1F0B747A005EB98C /* Const.swift in Sources */,
+				DBB761E11F0B7A31005EB98C /* MeViewController.swift in Sources */,
+				DBB761D31F0B7603005EB98C /* BaseTabBarController.swift in Sources */,
+				DBB761CB1F0B747A005EB98C /* Observable+ObjectMapper.swift in Sources */,
+				DBB761C51F0B745F005EB98C /* BaseViewModel.swift in Sources */,
+				DBB761DF1F0B7A1C005EB98C /* HomeViewController.swift in Sources */,
+				DBB761C61F0B745F005EB98C /* BaseWKWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBB761AE1F0B6E12005EB98C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB761AF1F0B6E12005EB98C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBB761B31F0B6E12005EB98C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB761B41F0B6E12005EB98C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB761B71F0B6E12005EB98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBB761B81F0B6E12005EB98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB761BA1F0B6E12005EB98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61EB2410FFE039BE88A3E2F /* Pods-NeuralStyle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ALBEQ9P8C;
+				INFOPLIST_FILE = NeuralStyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gjj.NeuralStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBB761BB1F0B6E12005EB98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B0EE438B6B08CD375B95697 /* Pods-NeuralStyle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ALBEQ9P8C;
+				INFOPLIST_FILE = NeuralStyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gjj.NeuralStyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB761A21F0B6E12005EB98C /* Build configuration list for PBXProject "NeuralStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB761B71F0B6E12005EB98C /* Debug */,
+				DBB761B81F0B6E12005EB98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB761B91F0B6E12005EB98C /* Build configuration list for PBXNativeTarget "NeuralStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB761BA1F0B6E12005EB98C /* Debug */,
+				DBB761BB1F0B6E12005EB98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB7619F1F0B6E12005EB98C /* Project object */;
+}
